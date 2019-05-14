@@ -20,3 +20,8 @@ cabal.project.local
 cabal.project.local~
 .HTF/
 .ghc.environment.*
+*~
+exercises/*/exercise
+exercises/*/exercise.exe
+exercises/*/solution
+exercises/*/solution.exe
