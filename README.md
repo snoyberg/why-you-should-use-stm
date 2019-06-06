@@ -12,6 +12,11 @@ the following _before the workshop begins_:
 * Install the Stack build tool: https://haskell.fpcomplete.com/get-started
 * Build the libraries we'll be using: `stack build --resolver lts-13.21 async stm-chans hspec warp`
 
+Note that Nix users can provision these dependencies using:
+```
+nix-shell -p "haskellPackages.ghcWithPackages (pkgs: with pkgs; [async stm-chans hspec warp])"
+```
+
 ## Prerequisites
 
 This workshop will assume _no prior knowledge_ of Software
