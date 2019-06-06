@@ -10,7 +10,7 @@ In order to participate with this workshop, please ensure that you do
 the following _before the workshop begins_:
 
 * Install the Stack build tool: https://haskell.fpcomplete.com/get-started
-* Build the libraries we'll be using: `stack build --resolver lts-13.21 async stm-chans hspec`
+* Build the libraries we'll be using: `stack build --resolver lts-13.21 async stm-chans hspec warp`
 
 ## Prerequisites
 
@@ -281,6 +281,14 @@ work correctly. Run the exercise, see what fails, and then try to fix
 it. We'll discuss why it fails afterwards.
 
 **Proceed to fake exercise 09**
+
+## Additional exercises
+
+More exercises we can cover together, or you can take
+home. Alternatively: we can do some group coding exercises.
+
+* Exercise 10: long polling web server
+* Exercise 11: registering delays
 
 ## Extra credit
 

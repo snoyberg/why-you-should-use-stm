@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Long polling status</title>
+    <style>
+      body {
+      max-width: 600px;
+      margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Long polling status</h1>
+    Status: <code id="status">unknown</code>
+
+    <form method="post" action="/set-status">
+      Set status to <input type="text" name="status" autofocus>
+      <button>Set it!</button>
+    </form>
+  </body>
+
+  <script src="/script.js"></script>
+</html>
